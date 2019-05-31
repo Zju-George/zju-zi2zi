@@ -25,7 +25,7 @@ parser.add_argument('--experiment_id', dest='experiment_id', type=int, default=0
 parser.add_argument('--model_dir', dest='model_dir', default="experiments/checkpoint/experiment_0",
                     help='directory that saves the model checkpoints')
 parser.add_argument('--batch_size', dest='batch_size', type=int, default=32, help='number of examples in batch')
-parser.add_argument('--text', type=str, default="一二三", help='the source images for inference')
+parser.add_argument('--text', type=str, default="艾佳明", help='the source images for inference')
 parser.add_argument('--embedding_id', type=int, default=67, help='embeddings involved')
 parser.add_argument('--embedding_dim', type=int, default=EMBEDDING_DIM, help="dimension for embedding")
 parser.add_argument('--save_dir', default='save_dir', type=str, help='path to save inferred images')
